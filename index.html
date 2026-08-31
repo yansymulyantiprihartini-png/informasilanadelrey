@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lana Del Rey Wiki</title>
+<style>
+:root{
+  --gold:#C9A961;--bg:#0a0a0a;--card:#111;--text:#e0e0e0;--border:#333
+}
+body.light{
+  --bg:#f5f1e8;--card:#fff;--text:#222;--border:#ddd
+}
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Georgia,serif;background:var(--bg);color:var(--text);transition:.3s}
+header{background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?q=80&w=2070') center/cover;height:280px;display:flex;align-items:center;justify-content:center;text-align:center;position:relative}
+header h1{font-size:48px;color:var(--gold);text-shadow:0 0 20px #000}
+#themeBtn{position:absolute;top:20px;right:20px;background:var(--gold);color:#000;border:none;padding:10px 15px;border-radius:20px;cursor:pointer;font-weight:bold}
+.container{display:flex;max-width:1200px;margin:20px auto;padding:20px;gap:30px}
+.sidebar{width:260px;background:var(--card);padding:20px;border-radius:10px;height:fit-content;position:sticky;top:20px;border:1px solid var(--border)}
+.sidebar h3{color:var(--gold);margin-bottom:15px;border-bottom:1px solid var(--gold);padding-bottom:8px}
+.sidebar a{display:block;color:var(--text);text-decoration:none;padding:8px 0;opacity:.8}.sidebar a:hover{color:var(--gold);opacity:1;padding-left:8px}
+.main{flex:1;background:var(--card);padding:30px;border-radius:10px;border:1px solid var(--border)}
+.main h2{color:var(--gold);font-size:28px;margin:25px 0 15px;border-bottom:2px solid var(--gold);padding-bottom:8px}
+.album-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:20px}
+.album-card{background:var(--bg);border-radius:8px;overflow:hidden;text-align:center;border:1px solid var(--border);transition:.3s}
+.album-card:hover{transform:translateY(-5px);border-color:var(--gold)}
+.album-card img{width:100%;height:170px;object-fit:cover}
+.album-card h4{padding:10px;color:var(--gold);font-size:14px}
+table{width:100%;border-collapse:collapse;margin:20px 0}
+th,td{padding:12px;border:1px solid var(--border);text-align:left}
+th{background:var(--gold);color:#000}
+.iconic{background:var(--bg);border-left:4px solid var(--gold);padding:15px;margin:15px 0;border-radius:4px}
+footer{text-align:center;padding:20px;background:#000;color:#777}
+@media(max-width:900px){.container{flex-direction:column}.sidebar{position:relative;width:100%}}
+</style>
+</head>
+<body>
+
+<header>
+  <button id="themeBtn" onclick="toggleTheme()">☀️ Light</button>
+  <div>
+    <h1>Lana Del Rey</h1>
+    <p>Elizabeth Woolridge Grant | Ratu Sadcore & Americana</p>
+  </div>
+</header>
+
+<div class="container">
+  <aside class="sidebar">
+    <h3>Daftar Isi</h3>
+    <a href="#bio">Biografi</a>
+    <a href="#album">Diskografi</a>
+    <a href="#ikonik">Yang Ikonik</a>
+    <a href="#fakta">Fakta Menarik</a>
+  </aside>
+
+  <main class="main">
+    <section id="bio">
+      <h2>Biografi Singkat</h2>
+      <p><b>Lana Del Rey</b> lahir 21 Juni 1985 di New York. Nama asli: Elizabeth Woolridge Grant. Terkenal sejak 2011 lewat "Video Games".</p>
+      <p>Gaya musiknya: Cinematic Pop, Baroque Pop, Sadcore. Ciri khas: vokal alto mendayu, lirik tentang cinta tragis, glamor Amerika 50s-60s, dan nostalgia.</p>
+    </section>
+
+    <section id="album">
+      <h2>Diskografi Album Studio</h2>
+      <div class="album-grid">
+        <div class="album-card"><img src="https://upload.wikimedia.org/wikipedia/en/8/8a/Lana_Del_Rey_-_Born_to_Die.png" alt="Born to Die"><h4>Born to Die<br><small>2012</small></h4></div>
+        <div class="album-card"><img src="https://upload.wikimedia.org/wikipedia/en/7/73/Lana_Del_Rey_-_Ultraviolence.png" alt="Ultraviolence"><h4>Ultraviolence<br><small>2014</small></h4></div>
+        <div class="album-card"><img src="https://upload.wikimedia.org/wikipedia/en/5/55/Lana_Del_Rey_-_Honeymoon.png" alt="Honeymoon"><h4>Honeymoon<br><small>2015</small></h4></div>
+        <div class="album-card"><img src="https://upload.wikimedia.org/wikipedia/en/1/10/Lana_Del_Rey_-_Lust_for_Life.png" alt="Lust for Life"><h4>Lust for Life<br><small>2017</small></h4></div>
+        <div class="album-card"><img src="https://upload.wikimedia.org/wikipedia/en/b3/Lana_Del_Rey_-_Norman_Fucking_Rockwell.png" alt="NFR"><h4>Norman F Rockwell<br><small>2019</small></h4></div>
+        <div class="album-card"><img src="https://upload.wikimedia.org/wikipedia/en/8/8e/Lana_Del_Rey_-_Chemtrails_over_the_Country_Club.png" alt="Chemtrails"><h4>Chemtrails<br><small>2021</small></h4></div>
+        <div class="album-card"><img src="https://upload.wikimedia.org/wikipedia/en/7/79/Lana_Del_Rey_-_Blue_Banisters.png" alt="Blue Banisters"><h4>Blue Banisters<br><small>2021</small></h4></div>
+        <div class="album-card"><img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Lana_Del_Rey_-_Did_You_Know_That_There%27s_a_Tunnel_Under_Ocean_Blvd.png" alt="Ocean Blvd"><h4>Ocean Blvd<br><small>2023</small></h4></div>
+      </div>
+
+      <table>
+        <tr><th>Tahun</th><th>Album</th><th>Lagu Ikonik</th></tr>
+        <tr><td>2012</td><td>Born to Die</td><td>Video Games, Summertime Sadness</td></tr>
+        <tr><td>2014</td><td>Ultraviolence</td><td>West Coast, Shades of Cool</td></tr>
+        <tr><td>2019</td><td>NFR</td><td>Mariners, Venice Bitch</td></tr>
+        <tr><td>2023</td><td>Ocean Blvd</td><td>A and W, The Grants</td></tr>
+      </table>
+    </section>
+
+    <section id="ikonik">
+      <h2>Yang Ikonik dari Lana Del Rey</h2>
+      <div class="iconic"><b>1. Aesthetic Americana</b><br>Gaya vintage, bunga, mobil klasik, bendera Amerika, nuansa Hollywood lama. Disebut "Sad Girl Aesthetic"</div>
+      <div class="iconic"><b>2. Lirik Puitis</b><br>Tentang cinta yang menyakitkan, wanita fatal, alkohol, dan "American Dream" versi gelap. "I'm pretty when I cry"</div>
+      <div class="iconic"><b>3. Vokal Sinematik</b><br>Suaranya rendah dan pelan. Rasanya kayak nonton film. Ini yang bikin dia beda.</div>
+      <div class="iconic"><b>4. Visual Album</b><br>Setiap era punya visual kuat. Born to Die = Amerika, Ultraviolence = rock, NFR = California</div>
+    </section>
+
+    <section id="fakta">
+      <h2>Fakta Menarik</h2>
+      <p>1. Dia nulis hampir semua lagunya sendiri</p>
+      <p>2. Album NFR dinobatkan "Album Terbaik Dekade ini" oleh Pitchfork</p>
+      <p>3. Lagu "Young and Beautiful" masuk soundtrack film The Great Gatsby</p>
+      <p>4. Memengaruhi Billie Eilish, Taylor Swift, dan Olivia Rodrigo</p>
+    </section>
+  </main>
+</div>
+
+<footer>
+  © 2026 LDR Wiki Fanpage | Dibuat dengan HTML5 untuk Github Pages 💿
+</footer>
+
+<script>
+// Dark Light Mode
+function toggleTheme(){
+  document.body.classList.toggle('light');
+  let btn = document.getElementById('themeBtn');
+  if(document.body.classList.contains('light')){
+    btn.innerText = '🌙 Dark';
+  } else {
+    btn.innerText = '☀️ Light';
+  }
+}
+// Simpan tema ke localStorage
+if(localStorage.getItem('theme') === 'light'){
+  document.body.classList.add('light');
+  document.getElementById('themeBtn').innerText = '🌙 Dark';
+}
+document.getElementById('themeBtn').onclick = function(){
+  toggleTheme();
+  localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
+}
+</script>
+
+</body>
+</html>
